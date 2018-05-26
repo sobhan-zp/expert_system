@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout1.xml.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\layout\\layout1.xml"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_profile.png.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\drawable-xhdpi\\user_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout2.xml.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\layout\\layout2.xml"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_patern_black.jpg.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\drawable-xhdpi\\patern_black.jpg"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout3.xml.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\layout\\layout3.xml"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\anim_wellcom_text.xml.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\anim\\wellcom_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\anim_touch_txt.xml.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\anim\\touch_txt.xml"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg_comment.9.png.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\drawable-xhdpi\\bg_comment.9.png"
+    },
+    {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_expert_profile.png.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\drawable-xhdpi\\expert_profile.png"
+    }
+]

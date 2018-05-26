@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Sat May 26 13:44:20 IRDT 2018
+1.base=C\:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+2.path=f2.ttf
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=C\:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\assets\\debug
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=f3.ttf
+count=4
+1.set=DEX
+0.path=f1.ttf
+3.base=C\:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\assets\\debug
+0.set=ASSET
+0.base=C\:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\assets\\debug
+2.baseType=DIRECTORY
+1.path=classes.dex
