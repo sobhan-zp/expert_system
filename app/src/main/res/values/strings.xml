@@ -3,5 +3,28 @@
 
     <string name="hello">Hello World, Es1Activity!</string>
     <string name="app_name">EXPERT SYSTEM</string>
+    <string name="tree">از بین حیوانات زیر یکی را انتخاب کن
+ 1- زرافه
+        \n
+
+ 2- فیل
+        \n
+
+        3- اسب آبی
+        \n
+
+ 4- کرگدن
+        \n
+
+ 5- موش
+        \n
+
+ 6- سنجاب
+        \n
+7-خروس
+        \n
+
+ انتخاب کردی ؟"</string>
 
 </resources>
+

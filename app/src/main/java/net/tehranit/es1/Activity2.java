@@ -1,6 +1,7 @@
 package net.tehranit.es1;
 
 import java.util.ArrayList;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,10 +15,10 @@ import android.widget.TextView;
 
 public class Activity2 extends Activity {
 
-    public ArrayList<StructNote> notes  = new ArrayList<StructNote>();
-    public ArrayAdapter          adapter;
-    public int                   conter = 0;
-    public String                txt    = "";
+    public ArrayList<StructNote> notes = new ArrayList<StructNote>();
+    public ArrayAdapter adapter;
+    public int conter = 0;
+    public String txt = "";
 
 
     @Override
@@ -62,7 +63,7 @@ public class Activity2 extends Activity {
 
                                 @Override
                                 public void run() {
-                                    printLs(2, "از بین حیوانات زیر یکی را انتخاب کن \n 1- زرافه \n 2- فیل \n 3- اسب آبی \n 4- کرگدن \n 5- موش \n 6- سنجاب \n انتخاب کردی ؟");
+                                    printLs(2,getString(R.string.tree) );
                                 }
                             }, 1200);
 
@@ -217,12 +218,39 @@ public class Activity2 extends Activity {
 
                                 @Override
                                 public void run() {
-                                    printLs(2, "فهمیدم سنجابه");
+                                    printLs(2, "آیا تاج داره؟");
+                                }
+                            }, 1200);
+                            conter = 8;
+                            break;
+
+                            //kargadan
+                        }
+
+                    case 8:
+                        if (txt.equals("yes") || txt.equals("ye") || txt.equals("y") || txt.equals("are") || txt.equals("bale") || txt.equals("بله") || txt.equals("آره")) {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "فهمیدم خروسه");
                                 }
                             }, 1200);
                             conter = 0;
                             break;
-                            //kargadan
+                            //asb abi
+                        } else {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "سنجابه");
+                                }
+                            }, 1200);
+                            conter = 0;
+                            break;
                         }
 
                 }
