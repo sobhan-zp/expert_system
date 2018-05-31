@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg.jpg.flat",
+        "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\drawable-xhdpi\\bg.jpg"
+    },
+    {
         "merged": "C:\\Users\\zp\\Desktop\\expert_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout1.xml.flat",
         "source": "C:\\Users\\zp\\Desktop\\expert_system\\app\\src\\main\\res\\layout\\layout1.xml"
     },

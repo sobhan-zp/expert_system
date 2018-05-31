@@ -89,7 +89,7 @@ public class Activity2 extends Activity {
 
                                 @Override
                                 public void run() {
-                                    printLs(2, "آیا این حیونه خیلی بزرکه ؟");
+                                    printLs(2, "آیا این حیونه خیلی بزرگه ؟");
                                 }
                             }, 1200);
                             conter++;
@@ -130,10 +130,10 @@ public class Activity2 extends Activity {
 
                                 @Override
                                 public void run() {
-                                    printLs(2, "فهمیدم ... زرافه است");
+                                    printLs(2, "پاهای بلندی دارد؟");
                                 }
                             }, 1200);
-                            conter = 0;
+                            conter = 9;
                             break;
                             //zarafe
                         } else {
@@ -206,7 +206,7 @@ public class Activity2 extends Activity {
 
                                 @Override
                                 public void run() {
-                                    printLs(2, "فهمیدم موشه گوگوری مگوری");
+                                    printLs(2, "فهمیدم موشه");
                                 }
                             }, 1200);
                             conter = 0;
@@ -218,7 +218,7 @@ public class Activity2 extends Activity {
 
                                 @Override
                                 public void run() {
-                                    printLs(2, "آیا تاج داره؟");
+                                    printLs(2, "آیا پرنده هست؟");
                                 }
                             }, 1200);
                             conter = 8;
@@ -234,7 +234,34 @@ public class Activity2 extends Activity {
 
                                 @Override
                                 public void run() {
-                                    printLs(2, "فهمیدم خروسه");
+                                    printLs(2, "تو آب زندگی میکنه؟ ");
+                                }
+                            }, 1200);
+                            conter = 10;
+                            break;
+                            //asb abi
+                        } else {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "خزنده است؟");
+                                }
+                            }, 1200);
+                            conter = 12;
+                            break;
+                        }
+
+
+                    case 9:
+                        if (txt.equals("yes") || txt.equals("ye") || txt.equals("y") || txt.equals("are") || txt.equals("bale") || txt.equals("بله") || txt.equals("آره")) {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "فلامینگو");
                                 }
                             }, 1200);
                             conter = 0;
@@ -246,7 +273,114 @@ public class Activity2 extends Activity {
 
                                 @Override
                                 public void run() {
-                                    printLs(2, "سنجابه");
+                                    printLs(2, "زرافه");
+                                }
+                            }, 1200);
+                            conter = 0;
+                            break;
+                        }
+
+
+                    case 10:
+                        if (txt.equals("yes") || txt.equals("ye") || txt.equals("y") || txt.equals("are") || txt.equals("bale") || txt.equals("بله") || txt.equals("آره")) {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "مرغ دریایی");
+                                }
+                            }, 1200);
+                            conter = 0;
+                            break;
+                            //asb abi
+                        } else {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "کوچک است؟");
+                                }
+                            }, 1200);
+                            conter = 11;
+                            break;
+                        }
+
+
+                    case 11:
+                        if (txt.equals("yes") || txt.equals("ye") || txt.equals("y") || txt.equals("are") || txt.equals("bale") || txt.equals("بله") || txt.equals("آره")) {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "گنجشک");
+                                }
+                            }, 1200);
+                            conter = 0;
+                            break;
+                            //asb abi
+                        } else {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "جغد");
+                                }
+                            }, 1200);
+                            conter = 0;
+                            break;
+                        }
+
+
+                    case 12:
+                        if (txt.equals("yes") || txt.equals("ye") || txt.equals("y") || txt.equals("are") || txt.equals("bale") || txt.equals("بله") || txt.equals("آره")) {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "دراز است؟");
+                                }
+                            }, 1200);
+                            conter = 13;
+                            break;
+                            //asb abi
+                        } else {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "ماهی");
+                                }
+                            }, 1200);
+                            conter = 0;
+                            break;
+                        }
+
+                    case 13:
+                        if (txt.equals("yes") || txt.equals("ye") || txt.equals("y") || txt.equals("are") || txt.equals("bale") || txt.equals("بله") || txt.equals("آره")) {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "مار");
+                                }
+                            }, 1200);
+                            conter = 13;
+                            break;
+                            //asb abi
+                        } else {
+                            printLs(1, txt);
+                            new Handler().postDelayed(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    printLs(2, "مارمولک");
                                 }
                             }, 1200);
                             conter = 0;
